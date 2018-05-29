@@ -4,7 +4,6 @@ public class Fib {
 
   private Fib() {
   }
-
   public static int getFibIn(int index) {
     int fib2 = 1;
     int fib1 = 1;
