@@ -2,6 +2,9 @@ package com.example.demo.domain;
 
 public class Version {
 
+    private Version() {
+    }
+
     private static int major = 1;
     private static int minor = 0;
     private static int patch = 0;

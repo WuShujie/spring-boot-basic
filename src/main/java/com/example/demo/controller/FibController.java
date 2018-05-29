@@ -10,9 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/fib")
 public class FibController {
 
+
+
   @RequestMapping(path = "/{index}", method = RequestMethod.GET)
   public Integer getFib(@PathVariable int index) {
-    //    return Version.getVerStr();
     return Fib.getFibIn(index);
   }
 }
